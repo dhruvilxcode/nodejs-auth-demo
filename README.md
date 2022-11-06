@@ -8,7 +8,7 @@ MONGODB_URL = "paste mongodb connection url"
 JWT_SECRET = "your secret"
 ```
 
-### Routes
+### Routes:
 
 `/auth/signin`
 
@@ -17,3 +17,9 @@ Params: email, password
 `/auth/signup`
 
 Params: email, password, firstname, lastname
+
+**Protected Route:**
+
+`/dashboard`
+
+Use Authentication header to access this route.
